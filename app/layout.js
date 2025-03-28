@@ -1,5 +1,4 @@
-// Импортируем компонент Analytics
-import { Analytics } from "@vercel/analytics/react";
+// Импортируем шрифты и стили
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -17,9 +16,6 @@ const geistMono = Geist_Mono({
 export function PageLayout({ children }) {
   return (
     <div>
-      {/* Вставляем компонент Analytics сюда */}
-      <Analytics />
-
       {/* Здесь выводится контент всех страниц */}
       {children}
     </div>
