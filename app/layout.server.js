@@ -17,9 +17,9 @@ export default function Layout({ children }) {
       sub: [
         "Hei", "Preposisjoner", "Refleksive pronomen", "Genitiv",
         "Eiendomsord", "Adjektiv", "Verb", "Subjunksjoner", "Спørreord",
-        "Familien min", "Tid og Tall", "Mat", "Årstider og vær", "Aktiviteter",
-        "Helse", "Reise", "Høytider", "Hjemmeliv", "Klær", "Forhold",
-        "Å skrive brev", "Besøk", "Helger og planer"
+        "Familien min", "Tid и Tall", "Mat", "Årstider и vær", "Активитеты",
+        "Helse", "Reise", "Høytider", "Hjemmelив", "Klær", "Forhold",
+        "Å skrive brev", "Besøk", "Helгер и планы"
       ]
     },
     {
