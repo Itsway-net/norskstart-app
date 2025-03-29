@@ -1,8 +1,13 @@
+"use client";
+
 export const metadata = {
   title: "LingNorsk",
   description: "Добро пожаловать в LingNorsk!",
 };
 
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useMemo } from "react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import ClientLayout from "./ClientLayout";
 
@@ -102,4 +107,3 @@ export default function ClientLayout({ children }) {
     </div>
   );
 }
-
